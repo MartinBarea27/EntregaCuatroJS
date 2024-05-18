@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega Cuatro JS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Crear un input de tipo number ,un botón y un contenedor vacío -->
+ <div class="input">
+    <h2>Escriba el número del Pokemón que quiere mostrar:</h2>
+     <input type="number" id="numero">
+     <button onclick="mostrarPokemon(document.getElementById('numero').value)">Mostrar Pokemon</button>
+ </div>
+    <div id="pokeCard"></div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
